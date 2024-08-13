@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="./Estilos/style.css">
+    <title>Encriptador</title>
+<body>
+   <header>
+    <a href="#" rel="">
+        <img src="./imagenes/Logo.png" alt="Logo Alura" class="logo">
+    </a>
+   </header>
+
+   <!-- Principal-->
+   <main>
+    <section class="encriptador">
+        <textarea class="encriptar" placeholder="Ingrese texto aquí"></textarea>
+        <div class="encriptador-aviso">
+            <img src="./imagenes/aviso.svg" alt="Imagen-Aviso" class="img-aviso">
+            <p class="texto-aviso">
+                Solo letras minúsculas y sin acentos
+            </p>
+        </div>
+        <div class="encriptador-contenedor">
+            <button type="submit" class="btn-encriptar">Encriptar</button>
+            <button type="submit" class="btn-desencriptar">Desencriptar</button>
+        </div>
+    </section>
+
+    <section class="tarjeta">
+        <div class="tarjeta-contenedor" id="tar-conten">
+            <img src="./imagenes/muñeco.svg" alt="Imagen muñeco" class="img-muneco">
+            <p class="texto-uno">Ningún mensaje fue encontrado</p>
+            <p class="texto-dos">Ingresa el texto que deseas encriptar o desencriptar</p>
+        </div>
+        <textarea type="mensaje" class="evaluar" readonly></textarea>
+        <button type="submit" class="btn-copiar">Copiar</button>
+
+    </section>
+   </main>
+   <!-- pie de pagina-->
+    <footer>
+        <p class="copyright">&copy;Copyright 2024 - Encriptador Carlos Quintana</p>
+        <a href="#" rel="">
+            <img src="./imagenes/linkedin.svg" alt="Logo Linkedin" class="linked" >
+        </a>
+        <a href="#" rel="">
+            <img src="./imagenes/github.svg" alt="Logo Githuh" class="git" >
+        </a>
+    </footer>
+    <script src="./Scripts/script.js"></script>
+</body>
+</html>
+
